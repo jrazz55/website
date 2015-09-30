@@ -1,0 +1,18 @@
+body {
+    background: #e7d8c5;
+}
+
+ul {
+    list-style-type: none;
+    margin:auto;
+}
+
+li {
+    float: left;
+    padding: 0px 30px 0px 30px;
+}
+
+.logo-image {
+    background: url('../images/logo.png');
+}
+
