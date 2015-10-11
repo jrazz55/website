@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="favicon.ico">
         <title>Jonathan M. Razon</title>
     </head>
     <body>
@@ -12,11 +13,15 @@
                 <span class="line"></span>
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contactme.html">Contact Me</a></li>
+                <li data-content="home">Home</li>
+                <li data-content="about">About Me</li>
+                <li data-content="services">Services</li>
+                <li data-content="contact">Contact Me</li>
             </ul>
         </div>
+        <div id="content">
+
+        </div>
     </body>
+    <script data-main="js/main" src="js/lib/require.js"></script>
 </html>
