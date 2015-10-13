@@ -36,3 +36,8 @@ body {
     min-height: 400px;
 }
 
+.brick img {
+    border: 4px solid white;
+    margin: 0px;
+}
+
