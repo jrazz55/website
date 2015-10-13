@@ -28,21 +28,34 @@ var images = [
         width: 300
     },
     {
+        image: 'history-cover.jpg',
+        width: 600
+    },
+    {
         image: 'APURA2.jpg',
         width: 200
     },
-    {
-        image: 'history-cover.jpg',
-        width: 500
-    },
+
     {
         image: 'holidayspecial.jpg',
         width: 600
     },
     {
-        image: 'bird.jpg',
-        width: 800
+        image: 'banner.jpg',
+        width: 300
     },
+    {
+        image: 'mathlabvswritinglab.jpg',
+        width: 300
+    },
+    {
+        image: 'sports_info.jpg',
+        width: 300
+    },
+    {
+        image: 'tomchaishabbat.jpg',
+        width: 300
+    }
 ];
 var imageHtml = '<div class="brick" style="width:{width}px;"><a class="gallery" href="images/portfolio/{image}"><img src="images/portfolio/{image}" width="100%"></a></div>';
 var html = "";
