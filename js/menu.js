@@ -8,19 +8,19 @@ require([
     'jquery',
     'text!../pages/about.html',
     'text!../pages/home.html',
-    'text!../pages/services.html',
+    'text!../pages/portfolio.html',
     'text!../pages/contact.html'
 ], function (
     $,
     aboutTemplate,
     homeTemplate,
-    servicesTemplate,
+    portfolioTemplate,
     contactTemplate
 ) {
     var pages = {
         about: aboutTemplate,
         home: homeTemplate,
-        services: servicesTemplate,
+        portfolio: portfolioTemplate,
         contact: contactTemplate
     };
 
