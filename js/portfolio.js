@@ -55,6 +55,10 @@ var images = [
     {
         image: 'tomchaishabbat.jpg',
         width: 300
+    },
+    {
+        image: 'redhead.png',
+        width: 300
     }
 ];
 var imageHtml = '<div class="brick" style="width:{width}px;"><a class="gallery" href="images/portfolio/{image}"><img src="images/portfolio/{image}" width="100%"></a></div>';
