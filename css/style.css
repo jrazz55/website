@@ -84,7 +84,10 @@ img.bg {
     margin: 0px;
 }
 
-@import url(//dl.dafont.com/dl/?f=cocomat);
+@font-face {
+    font-family: 'cocomat'; /*a name to be used later*/
+    src: url('/fonts/Cocomat-Light.ttf'); /*URL to font*/
+}
 
 body {
     margin: 0;
@@ -100,8 +103,4 @@ a {
     text-decoration: underline;
     color: #d4ccab;
     text: underline;
-}
-@font-face {
-    font-family: 'Cocomat';
-    src: url('http://dl.dafont.com/dl/?f=cocomat') format('truetype');
 }
