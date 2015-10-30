@@ -69,7 +69,7 @@ for (var i in images) {
     html+= temp;
 }
 $('#portfolio-pictures').html(html);
-$('a.gallery').colorbox({rel: 'gallery'});
+$('a.gallery').colorbox({rel: 'gallery', height:"100%"});
 
 var wall = new freewall("#portfolio-pictures");
 wall.reset({

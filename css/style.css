@@ -13,15 +13,18 @@ img.bg {
     left: 0;
     z-index: -1;
 }
-.list {
-    font-size: large;
+
+.home a {
+    text-decoration:none;
+    color:black;
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-    img.bg {
-        left: 50%;
-        margin-left: -512px;   /* 50% */
-    }
+#cboxCurrent {
+    font-family: sans-serif;
+}
+
+.list {
+    font-size: large;
 }
 
 .logo {
@@ -29,17 +32,11 @@ img.bg {
     height: 100%;
     padding-top:200px;
 }
-.number {
-}
+
 .logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /*center vertically*/
-    /*position: absolute;*/
-    /*top: 50%;*/
-    /*left: 50%;*/
-    /*transform: translate(-50%, -50%);*/
     width: 35%;
 }
 
@@ -89,74 +86,24 @@ img.bg {
 }
 
 @font-face {
-    font-family: 'cocomat'; /*a name to be used later*/
-    src: url('/fonts/Cocomat-Light.ttf'); /*URL to font*/
+    font-family: 'cocomat';
+    src: url('/fonts/Cocomat-Light.ttf');
 }
 
 body {
     margin: 0;
     font-family: cocomat;
 }
-.content {
+
+.page-content {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     text-align: left;
     padding-bottom: 50px;
 }
+
 a {
     text-decoration: underline;
     color: #d4ccab;
     text: underline;
-}
-.annimate{
-    HTML, BODY {
-height: 100%;
-}
-
-$colors: #360745, #D61C59, #E7D84B, #EFEAC5, #1B8798;
-
-BODY {
-background: hsl(200,70,11);
-background-size: .12em 100%;
-font: 16em/1 Arial;
-}
-
-.text--line {
-font-size: .5em;
-}
-
-svg {
-position: absolute;
-width: 100%;
-height: 100%;
-}
-
-$max: 5;
-$stroke-step: 7%;
-.text-copy {
-fill: none;
-stroke: white;
-stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
-stroke-width: 3px;
-
-animation: stroke-offset 9s infinite linear;
-
-@for $item from 1 through $max {
-$stroke-color: nth($colors, $item);
-
-&:nth-child(#{$item}) {
-stroke: $stroke-color;
-stroke-dashoffset: $stroke-step * $item;
-}
-}
-}
-
-@keyframes stroke-offset {
-50% {
-stroke-dashoffset: $stroke-step * $max;
-stroke-dasharray: 0 $stroke-step * $max*2.5;
-}
-}
-
-
 }
