@@ -20,7 +20,7 @@ var images = [
         width: 300
     },
     {
-        image: 'kedar.jpg',
+        image: 'Kedar.jpg',
         width: 250
     },
     {
